@@ -1004,3 +1004,43 @@ html.no-scroll-zoom, body.no-scroll-zoom { overscroll-behavior: none; }
   .dp-ring { width: 44px; height: 44px; flex-basis: 44px; }
   .section { padding-inline: .8rem; }
 }
+
+
+/* FINAL ABOUT IMAGE FIX — compact, balanced, never a tall strip */
+.about-portrait {
+  width: min(100%, 470px);
+  justify-self: end;
+}
+.about-portrait img {
+  display: block;
+  width: 100%;
+  height: min(36vw, 470px);
+  min-height: 340px;
+  aspect-ratio: auto;
+  object-fit: cover;
+  object-position: 50% 31%;
+  border-radius: 1.15rem 4.2rem 1.15rem 1.15rem;
+}
+
+@media (max-width: 680px) {
+  .about-portrait {
+    width: 100%;
+    max-width: 420px;
+    margin: .25rem auto 0;
+    justify-self: center;
+  }
+  .about-portrait img {
+    width: 100%;
+    height: clamp(270px, 82vw, 370px);
+    min-height: 0;
+    aspect-ratio: auto;
+    object-fit: cover;
+    object-position: 50% 28%;
+    border-radius: 1rem 3.2rem 1rem 1rem;
+  }
+  .about-portrait figcaption {
+    margin-top: .65rem;
+    padding: 0 .15rem;
+    line-height: 1.35;
+  }
+}
