@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-# Replace YOUR_PUBLIC_URL after deployment
-Sitemap: https://YOUR_PUBLIC_URL/sitemap.xml
+# IMPORTANT: replace with your real GitHub Pages URL after publishing.
+Sitemap: https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPOSITORY_NAME/sitemap.xml
