@@ -31,3 +31,11 @@ Google indexing
 2. Add the GitHub Pages URL.
 3. Submit sitemap.xml.
 4. Request indexing for the homepage.
+
+IMAGE FILE MAP
+- Header DP: assets/dp.jpg
+- Main hero image: images/sabith-founder-landscape.webp
+- About portrait image: images/sabith-founder-portrait.webp
+- Workspace image: assets/workspace.jpg
+
+IMPORTANT: About image display SIZE/CROP is controlled in css/style.css under "ABOUT LAYOUT V2". The image file itself does not need resizing.
