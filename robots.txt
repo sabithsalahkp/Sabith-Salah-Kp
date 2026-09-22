@@ -4,4 +4,5 @@ Allow: /
 User-agent: Googlebot-Image
 Allow: /
 
-Sitemap: https://sabithsalahkp.github.io/Sabith-Salah-Kp/sitemap.xml
+Sitemap: https://sabithsalahkp.github.io/Sabith-Salah-Kp/sitemap-main.xml
+Sitemap: https://sabithsalahkp.github.io/Sabith-Salah-Kp/image-sitemap.xml

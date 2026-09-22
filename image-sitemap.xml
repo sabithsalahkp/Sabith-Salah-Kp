@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://sabithsalahkp.github.io/Sabith-Salah-Kp/</loc>
+    <image:image>
+      <image:loc>https://sabithsalahkp.github.io/Sabith-Salah-Kp/images/sabith-founder-portrait.webp</image:loc>
+      <image:title>Sabith Salah K P</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://sabithsalahkp.github.io/Sabith-Salah-Kp/images/sabith-founder-landscape.webp</image:loc>
+      <image:title>Sabith Salah K P at workspace</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://sabithsalahkp.github.io/Sabith-Salah-Kp/images/sabith-founder-16x9.webp</image:loc>
+      <image:title>Sabith Salah K P founder</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://sabithsalahkp.github.io/Sabith-Salah-Kp/images/sabith-social.webp</image:loc>
+      <image:title>Sabith Salah K P</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://sabithsalahkp.github.io/Sabith-Salah-Kp/assets/dp.jpg</image:loc>
+      <image:title>Sabith Salah K P profile photo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://sabithsalahkp.github.io/Sabith-Salah-Kp/assets/workspace.jpg</image:loc>
+      <image:title>Sabith Salah K P workspace</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://sabithsalahkp.github.io/Sabith-Salah-Kp/images/quartz-mark.webp</image:loc>
+      <image:title>Quartz Web Solutions</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://sabithsalahkp.github.io/Sabith-Salah-Kp/images/we-met-mark.webp</image:loc>
+      <image:title>We Met</image:title>
+    </image:image>
+  </url>
+</urlset>
