@@ -1,22 +1,18 @@
----
-layout: null
----
-{% assign seo_url = site.github.url | replace_first: 'http:', 'https:' %}
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>{{ seo_url }}/</loc>
-    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    <loc>https://sabithsalahkp.github.io/Sabith-Salah-Kp/</loc>
+    <lastmod>2026-09-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
-    <image:image><image:loc>{{ seo_url }}/images/sabith-founder-portrait.webp</image:loc></image:image>
-    <image:image><image:loc>{{ seo_url }}/images/sabith-founder-landscape.webp</image:loc></image:image>
-    <image:image><image:loc>{{ seo_url }}/images/sabith-founder-16x9.webp</image:loc></image:image>
-    <image:image><image:loc>{{ seo_url }}/images/sabith-social.webp</image:loc></image:image>
-    <image:image><image:loc>{{ seo_url }}/assets/dp.jpg</image:loc></image:image>
-    <image:image><image:loc>{{ seo_url }}/assets/workspace.jpg</image:loc></image:image>
-    <image:image><image:loc>{{ seo_url }}/images/quartz-mark.webp</image:loc></image:image>
-    <image:image><image:loc>{{ seo_url }}/images/we-met-mark.webp</image:loc></image:image>
+    <image:image><image:loc>https://sabithsalahkp.github.io/Sabith-Salah-Kp/images/sabith-founder-portrait.webp</image:loc></image:image>
+    <image:image><image:loc>https://sabithsalahkp.github.io/Sabith-Salah-Kp/images/sabith-founder-landscape.webp</image:loc></image:image>
+    <image:image><image:loc>https://sabithsalahkp.github.io/Sabith-Salah-Kp/images/sabith-founder-16x9.webp</image:loc></image:image>
+    <image:image><image:loc>https://sabithsalahkp.github.io/Sabith-Salah-Kp/images/sabith-social.webp</image:loc></image:image>
+    <image:image><image:loc>https://sabithsalahkp.github.io/Sabith-Salah-Kp/assets/dp.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sabithsalahkp.github.io/Sabith-Salah-Kp/assets/workspace.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sabithsalahkp.github.io/Sabith-Salah-Kp/images/quartz-mark.webp</image:loc></image:image>
+    <image:image><image:loc>https://sabithsalahkp.github.io/Sabith-Salah-Kp/images/we-met-mark.webp</image:loc></image:image>
   </url>
 </urlset>

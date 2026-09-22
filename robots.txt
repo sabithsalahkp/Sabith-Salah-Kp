@@ -1,11 +1,7 @@
----
-layout: null
----
-{% assign seo_url = site.github.url | replace_first: 'http:', 'https:' %}
 User-agent: *
 Allow: /
 
 User-agent: Googlebot-Image
 Allow: /
 
-Sitemap: {{ seo_url }}/sitemap.xml
+Sitemap: https://sabithsalahkp.github.io/Sabith-Salah-Kp/sitemap.xml
