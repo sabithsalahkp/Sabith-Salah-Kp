@@ -1,9 +1,22 @@
+---
+layout: null
+---
+{% assign seo_url = site.github.url | replace_first: 'http:', 'https:' %}
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPOSITORY_NAME/</loc>
-    <lastmod>2026-08-29</lastmod>
+    <loc>{{ seo_url }}/</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+    <image:image><image:loc>{{ seo_url }}/images/sabith-founder-portrait.webp</image:loc></image:image>
+    <image:image><image:loc>{{ seo_url }}/images/sabith-founder-landscape.webp</image:loc></image:image>
+    <image:image><image:loc>{{ seo_url }}/images/sabith-founder-16x9.webp</image:loc></image:image>
+    <image:image><image:loc>{{ seo_url }}/images/sabith-social.webp</image:loc></image:image>
+    <image:image><image:loc>{{ seo_url }}/assets/dp.jpg</image:loc></image:image>
+    <image:image><image:loc>{{ seo_url }}/assets/workspace.jpg</image:loc></image:image>
+    <image:image><image:loc>{{ seo_url }}/images/quartz-mark.webp</image:loc></image:image>
+    <image:image><image:loc>{{ seo_url }}/images/we-met-mark.webp</image:loc></image:image>
   </url>
 </urlset>

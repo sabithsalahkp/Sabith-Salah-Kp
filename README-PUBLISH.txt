@@ -1,41 +1,44 @@
-Sabith Salah K P — HTML SEO Website
+Sabith Salah K P — SEO-Optimized GitHub Pages Website
 
-This is a static HTML/CSS/JS version of the founder website. It is ready for GitHub Pages.
+UPLOAD
+1. Upload every file/folder in this package to the repository root.
+2. GitHub -> repository Settings -> Pages.
+3. Build and deployment -> Deploy from a branch.
+4. Select main and /(root), then Save.
 
-Files you may edit later
-- assets/dp.jpg -> navbar/profile picture
-- assets/workspace.jpg -> workspace image
-- index.html -> content + SEO meta tags
-- robots.txt and sitemap.xml -> replace placeholder URL after publishing
+IMPORTANT
+- Keep GitHub Pages/Jekyll enabled. Do NOT add a .nojekyll file.
+- SEO URLs are generated automatically from the GitHub Pages repository URL (or its configured CNAME) using GitHub Pages metadata. There is no YOUR_GITHUB_USERNAME placeholder to replace.
+- If you later move the same files to non-GitHub hosting, replace the Liquid {{ site.github.url }} SEO values with that site's absolute public URL.
 
-Publish on GitHub Pages
-1. Create a new GitHub repository.
-2. Upload all files from this ZIP to the repository root.
-3. Go to Repo -> Settings -> Pages.
-4. Under Build and deployment, choose Deploy from a branch.
-5. Select branch main and folder /(root).
-6. Save.
-7. Wait a few minutes. GitHub will show your website URL.
+SEO INCLUDED
+- Canonical URL + hreflang
+- Google/Bing-compatible robots directives
+- Open Graph + X/Twitter social preview metadata
+- ProfilePage, Person, WebSite and Organization JSON-LD
+- ImageObject structured data for 1:1, 4:3 and 16:9 founder photos
+- Image-enabled XML sitemap
+- Googlebot-Image access
+- Search-result-compatible PNG favicons
+- Web manifest
+- Strong descriptive image alt text
+- Large image preview permission
+- Current We Met canonical business link: https://wemetchat.com/
 
-Important final SEO step
-After GitHub shows your URL, replace
-https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPOSITORY_NAME/
-inside:
-- index.html
-- robots.txt
-- sitemap.xml
-Then commit/push again.
+AFTER PUBLISHING
+1. Open the live website and confirm it loads normally.
+2. In Google Search Console, add/verify the live site.
+3. Submit: /sitemap.xml
+4. Use URL Inspection on the homepage and request indexing.
+5. Test the homepage with Google's Rich Results Test.
+6. Search later with: site:YOUR-LIVE-DOMAIN and "Sabith Salah K P".
 
-Google indexing
-1. Open Google Search Console.
-2. Add the GitHub Pages URL.
-3. Submit sitemap.xml.
-4. Request indexing for the homepage.
-
-IMAGE FILE MAP
-- Header DP: assets/dp.jpg
-- Main hero image: images/sabith-founder-landscape.webp
-- About portrait image: images/sabith-founder-portrait.webp
-- Workspace image: assets/workspace.jpg
-
-IMPORTANT: About image display SIZE/CROP is controlled in css/style.css under "ABOUT LAYOUT V2". The image file itself does not need resizing.
+IMAGE FILES INDEXED IN SITEMAP
+- images/sabith-founder-portrait.webp
+- images/sabith-founder-landscape.webp
+- images/sabith-founder-16x9.webp
+- images/sabith-social.webp
+- assets/dp.jpg
+- assets/workspace.jpg
+- images/quartz-mark.webp
+- images/we-met-mark.webp
