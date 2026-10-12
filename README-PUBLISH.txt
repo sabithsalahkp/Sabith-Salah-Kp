@@ -31,3 +31,11 @@ NOTES
   not the host-root robots.txt used for crawler policies. Submit sitemap.xml
   directly in Search Console instead of relying on robots.txt discovery.
 - Google indexing is not guaranteed immediately after sitemap submission.
+
+OCTOBER 2026: ATHAVE AI FOUNDER UPDATE
+- Added Athave AI as a third venture directly below Quartz Web Solutions and We Met.
+- Updated homepage bio, title, social metadata, work, journey, contacts and structured founder data.
+- Athave AI official unicorn logo loads from the public Athave AI GitHub repository.
+- Athave AI website link uses https://athave.in/ (it works once the domain is live).
+- Updated the homepage lastmod in sitemap.xml and sitemap-main.xml.
+- All existing portfolio images, Google verification file, layouts, and sitemap config are preserved.
