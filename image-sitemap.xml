@@ -35,5 +35,9 @@
       <image:loc>https://sabithsalahkp.github.io/Sabith-Salah-Kp/images/we-met-mark.webp</image:loc>
       <image:title>We Met</image:title>
     </image:image>
+    <image:image>
+      <image:loc>https://sabithsalahkp.github.io/Sabith-Salah-Kp/images/athave-ai-mark.png</image:loc>
+      <image:title>Athave AI unicorn logo</image:title>
+    </image:image>
   </url>
 </urlset>
