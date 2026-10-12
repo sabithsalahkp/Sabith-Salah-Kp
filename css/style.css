@@ -856,7 +856,7 @@ html.no-scroll-zoom, body.no-scroll-zoom { overscroll-behavior: none; }
   box-shadow: 0 14px 34px rgba(15,16,17,.10);
 }
 .venture-mark-wemet { box-shadow: 0 14px 34px rgba(213,38,42,.09); }
-.venture-mark-athave { background: #ffff; border-color: #fff; box-shadow: 0 14px 34px rgba(114, 46, 175, .19); }
+.venture-mark-athave { background: #fff; border-color: #fff; box-shadow: 0 14px 34px rgba(114, 46, 175, .19); }
 .venture-mark-athave img { display: block; object-fit: contain; padding: 6%; }
 
 .venture-detail a { overflow-wrap: anywhere; }
